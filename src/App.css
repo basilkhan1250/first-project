@@ -108,18 +108,17 @@ li {
     font-size: 50px;
 }
 
-
-
 .images {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 70px ;
 }
 
 .img1 {
     border-radius: 100px;
-    box-shadow: 1px 1px 10px 0.1px black;
+    /* box-shadow: 1px 1px 10px 1px black; */
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
     height: 160px;
 }
 
