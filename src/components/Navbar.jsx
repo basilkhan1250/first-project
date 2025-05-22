@@ -11,7 +11,7 @@ function Navbar() {
                     </div>
                     <div >
                         <ul className="navbar-text">
-                            <li><a className="anchor" href="">Problem</a></li>
+                            <li><a className="anchor" href="#Problems">Problem</a></li>
                             <li><a className="anchor" href="">Solution</a></li>
                             <li><a className="anchor" href="">Business Model</a></li>
                             <li><a className="anchor" href="">Profit Distribution</a></li>
