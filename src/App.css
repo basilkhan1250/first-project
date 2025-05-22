@@ -127,12 +127,20 @@ li {
     height: 6px;
 }
 
-
+.solution-container {
+    /* border: 1px solid black; */
+    margin: 150px 144px;
+}
 
 .Problems-container {
     margin: 150px 144px;
     /* border: 1px solid black; */
     height: 68vh;
+}
+
+.solution-heading {
+    color: #00a61e;
+    font-size: 48px;
 }
 
 .problem-heading {
@@ -163,4 +171,36 @@ hr {
 .problem-image {
     padding: 40px 120px 40px 70px;
     height: 410px;
+}
+
+.solution-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 54px 0px;
+}
+
+.img-div {
+    /* border: 1px solid black; */
+    width: 274px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-img {
+    width: 140px;
+    height: auto;
+}
+
+.img-div p {
+    padding: 30px 0px;
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+    margin: 0;
+    text-align: center;
 }
