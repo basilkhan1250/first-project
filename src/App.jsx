@@ -1,15 +1,16 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
-      <div className="container">
+      <div >
         <Navbar />
+        <Main />
       </div>
     </>
   )
 }
 
 export default App
-// 00AE47

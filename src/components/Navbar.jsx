@@ -9,15 +9,19 @@ function Navbar() {
                     <div className="navbar-text-heading">
                         <h1 className="heading">Green Protocol</h1>
                     </div>
-                    <div className="navbar-text">
-                        <p><a className="anchor" href="">Problem</a></p>
-                        <p><a className="anchor" href="">Solution</a></p>
-                        <p><a className="anchor" href="">Business Model</a></p>
-                        <p><a className="anchor" href="">Profit Distribution</a></p>
+                    <div >
+                        <ul className="navbar-text">
+                            <li><a className="anchor" href="">Problem</a></li>
+                            <li><a className="anchor" href="">Solution</a></li>
+                            <li><a className="anchor" href="">Business Model</a></li>
+                            <li><a className="anchor" href="">Profit Distribution</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         </>
+
     )
 }
 
