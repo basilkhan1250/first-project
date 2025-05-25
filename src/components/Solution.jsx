@@ -58,17 +58,22 @@ function Solution() {
                 <h1 className="solution-heading" id="Solutions">Solution</h1>
                 <hr />
 
-
-
                 <div className="solution-box">
                     {SolutionObj.map((item, index) => {
                         let bgColor;
+                        let pad;
 
                         // Define pattern by index
                         if (index === 0 || index === 2 || index === 5 || index === 7) {
-                            bgColor = 'lightgreen';
+                            bgColor = '#00BF54';
                         } else {
-                            bgColor = 'darkgreen';
+                            bgColor = '#009F32';
+                        }
+                        if (index === 5) {
+                            pad = "10px 60px"
+                        }
+                        else {
+                            pad = "10px 70px"
                         }
 
                         return (
@@ -77,15 +82,15 @@ function Solution() {
                                 className="img-div"
                                 style={{ backgroundColor: bgColor }}
                             >
-                                <img className="solution-img" src={item.img} alt={item.names} />
-                                <p>{item.names}</p>
+                                <div className="inner-sol">
+                                    <img className="solution-img" src={item.img} alt={item.names} />
+                                    <p style={{ padding: pad }}>{item.names}</p>
+                                </div>
                             </div>
                         );
                     })}
                 </div>
-
-
-
+                <h1>Hello</h1>
             </div>
         </>
     )

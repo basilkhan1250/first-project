@@ -92,7 +92,7 @@ li {
 
 .Main {
     height: 88vh;
-    width: 100vw;
+    width: 100%;
     background-color: #00AE47;
 }
 
@@ -197,10 +197,18 @@ hr {
 }
 
 .img-div p {
-    padding: 30px 0px;
-    font-weight: 900;
+    /* padding: 20px 0px; */
+    font-weight: 700;
     font-size: 22px;
     color: white;
     margin: 0;
     text-align: center;
+    /* padding: 10px 70px; */
+}
+
+.inner-sol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
