@@ -218,5 +218,25 @@ hr {
 }
 
 .business-images {
+    height: 500px;
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.business-img {
+    height: auto;
+    width: 200px;
+}
+
+
+.business-inner-images {
+    /* margin: 20px; */
+    /* padding: 0px 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: auto; */
+
 }
