@@ -227,18 +227,22 @@ hr {
 }
 
 .business-img {
+    border: 1px solid black;
     height: auto;
     width: 200px;
 }
 
+.para {
+    border: 1px solid black;
+}
 
 .business-inner-images {
     border: 1px solid black;
     /* margin: 20px; */
     padding: 0px 80px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: auto; */
+}
 
+.align {
+    width: 200px;
+    border: 1px solid black;
 }
