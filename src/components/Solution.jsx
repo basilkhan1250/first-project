@@ -19,6 +19,14 @@ import ship from "../assets/image9.png"
 import bugSpray from "../assets/image10.png"
 
 
+const SolutionPics = [
+    { img1: sea, img2: garden },
+    { img1: wind, img2: phone },
+    { img1: electricBike, img2: solarPhone },
+    { img1: watering, img2: bottle },
+    { img1: ship, img2: bugSpray },
+];
+
 
 
 const SolutionObj = [
@@ -101,14 +109,22 @@ function Solution() {
                         })}
                     </div>
                     <div className="solution-pics">
-                        <div className="first-images">
+                        {SolutionPics.map((item, index) => {
+                            return (
+
+                                <div key={index} className="first-images">
+                                    <img className="image" src={item.img1} />
+                                    <img className="image" src={item.img2} />
+                                </div>
+
+
+
+                            )
+                            {/* <div className="first-images">
                             <img className="image" src={sea} />
                             <img className="image" src={garden} />
-                        </div>
-                        <div className="first-images">
-                            <img className="image" src={sea} />
-                            <img className="image" src={garden} />
-                        </div>
+                             </div> */}
+                        })}
                     </div>
                 </div>
             </div>
