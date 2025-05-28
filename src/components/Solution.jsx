@@ -73,7 +73,7 @@ function Solution() {
     return (
         <>
             <div className="solution-container">
-                <h1 className="solution-heading" id="Solutions">Solution</h1>
+                <h1 className="heading" id="Solutions">Solution</h1>
                 <hr />
                 <div className="solution-setting">
                     <div className="solution-box">
@@ -116,14 +116,7 @@ function Solution() {
                                     <img className="image" src={item.img1} />
                                     <img className="image" src={item.img2} />
                                 </div>
-
-
-
                             )
-                            {/* <div className="first-images">
-                            <img className="image" src={sea} />
-                            <img className="image" src={garden} />
-                             </div> */}
                         })}
                     </div>
                 </div>

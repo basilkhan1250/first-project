@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
+import BusinessModel from "./components/BusinessModel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Main />
         <Problem />
         <Solution />
+        <BusinessModel />
       </div>
     </>
   )
