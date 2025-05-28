@@ -73,7 +73,7 @@ function Solution() {
     return (
         <>
             <div className="solution-container">
-                <h1 className="heading" id="Solutions">Solution</h1>
+                <h1 className="solution-heading" id="Solutions">Solution</h1>
                 <hr />
                 <div className="solution-setting">
                     <div className="solution-box">

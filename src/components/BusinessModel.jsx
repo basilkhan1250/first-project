@@ -11,16 +11,16 @@ const BusinessObj = [
         line: "Fruits and Vegetables Sale Out",
     },
     {
+        img: electricBike,
+        line: "Electrical Mobility Rental",
+    },
+    {
         img: electro,
-        line: "Electrical Distribution Profit",
+        line: "Electric Distribution Profit",
     },
     {
         img: recycle,
         line: "Plastic Recycling",
-    },
-    {
-        img: electricBike,
-        line: "Electrical Mobility Rental",
     },
     {
         img: spray,
@@ -38,10 +38,26 @@ function BusinessModel() {
                 <div className="business-images">
                     {BusinessObj.map((item, index) => {
                         return (
-                            <div className="business-inner-images">
+                            <div key={index} className="business-inner-images" >
                                 <img className="business-img" src={item.img} />
                                 <p></p>
                             </div>
+                            /* <div className="business-inner-images" >
+                                <img className="business-img" src={electro} />
+                                <p></p>
+                            </div>
+                            <div className="business-inner-images" >
+                                <img className="business-img" src={spray} />
+                                <p></p>
+                            </div>
+                            <div className="business-inner-images" >
+                                <img className="business-img" src={electricBike} />
+                                <p></p>
+                            </div>
+                            <div className="business-inner-images" >
+                                <img className="business-img" src={recycle} />
+                                <p></p>
+                            </div> */
                         )
                     })}
                 </div>
