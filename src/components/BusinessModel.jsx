@@ -4,6 +4,19 @@ import electro from "../assets/electro.png"
 import spray from "../assets/spray.png"
 import electricBike from "../assets/electric-bike.png"
 import recycle from "../assets/recycle-shopper.png"
+import blackRecycle from "../assets/recycle.png"
+import greenHouse from "../assets/house-leaf"
+import panel from "../assets/solar-panel.png"
+import flower from "../assets/flower.png"
+
+
+const businessNft = [
+    {
+        
+    }
+]
+
+
 
 const BusinessObj = [
     {
@@ -46,6 +59,14 @@ function BusinessModel() {
                             </div>
                         )
                     })}
+                </div>
+                <div className="business-nft">
+                    <p className="business-nft-para">Buy as <span>(NFT)</span> and get the Profit </p>
+                    <div className="business-images-block">
+                        <div className="business-images-inner-block">
+                            <img className="" src={blackRecycle} alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

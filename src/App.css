@@ -240,7 +240,7 @@ hr {
 .business-inner-images {
     /* border: 1px solid black; */
     /* margin: 20px; */
-    padding: 0px 80px ;
+    padding: 0px 80px;
 }
 
 .align {
@@ -249,4 +249,23 @@ hr {
     color: #00AE47;
     font-size: 20px;
     text-align: center;
+}
+
+.business-nft {
+    padding: 100px 0px;
+}
+
+.business-nft-para {
+    font-size: 24px;
+    padding: 30px 0px;
+    color: #00AE47;
+    text-align: center;
+}
+
+.business-nft-para span {
+    font-weight: 700;
+}
+
+.business-images-block {
+    
 }
