@@ -44,22 +44,6 @@ function BusinessModel() {
                                     <p className="para">{item.line}</p>
                                 </div>
                             </div>
-                            /* <div className="business-inner-images" >
-                                <img className="business-img" src={electro} />
-                                <p></p>
-                            </div>
-                            <div className="business-inner-images" >
-                                <img className="business-img" src={spray} />
-                                <p></p>
-                            </div>
-                            <div className="business-inner-images" >
-                                <img className="business-img" src={electricBike} />
-                                <p></p>
-                            </div>
-                            <div className="business-inner-images" >
-                                <img className="business-img" src={recycle} />
-                                <p></p>
-                            </div> */
                         )
                     })}
                 </div>
