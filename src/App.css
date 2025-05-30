@@ -219,7 +219,7 @@ hr {
 
 .business-images {
     height: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -227,24 +227,25 @@ hr {
 }
 
 .business-img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: auto;
     width: 200px;
 }
 
 .para {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
 }
 
 .business-inner-images {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* margin: 20px; */
-    padding: 0px 80px;
+    padding: 0px 80px ;
 }
 
 .align {
     width: 200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: #00AE47;
     font-size: 20px;
     text-align: center;

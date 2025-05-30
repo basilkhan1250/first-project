@@ -12,7 +12,7 @@ const BusinessObj = [
     },
     {
         img: electro,
-        line: "Electric Distribution Profit"
+        line: "Electrical Distribution Profit"
     },
     {
         img: spray,
