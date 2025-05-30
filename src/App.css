@@ -202,7 +202,7 @@ hr {
 
 .business-container {
     /* border: 1px solid black; */
-    margin: 150px 144px;
+    margin: 150px 144px 100px;
 }
 
 .business-heading {
@@ -252,7 +252,7 @@ hr {
 }
 
 .business-nft {
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .business-nft-para {

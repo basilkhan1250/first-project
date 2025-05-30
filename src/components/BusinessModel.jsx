@@ -73,7 +73,7 @@ function BusinessModel() {
     return (
         <>
             <div className="business-container">
-                <h1 className="business-heading" id="Businessmodel">Business Model</h1>
+                <h1 className="business-heading" id="Business-model">Business Model</h1>
                 <hr />
                 <p className="business-para">Crowd-funding ownership of</p>
                 <div className="business-images">
