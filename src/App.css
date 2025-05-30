@@ -267,5 +267,48 @@ hr {
 }
 
 .business-images-block {
-    
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+    justify-items: center;
+}
+
+.inner-images {
+    height: auto;
+    width: 200px;
+}
+
+.business-images-inner-block {
+    min-height: 350px;
+    width: 300px;
+    margin: 0px 20px;
+    padding: 0px 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.business-inner-para {
+    word-wrap: break-word;
+    font-size: 20px;
+    color: #00AE47;
+    margin: 10px 0px;
+    width: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.business-images-inner-block h3 {
+    font-size: 20px;
+    /* padding: 10px; */
+    color: #00AE47;
+    margin: 12px 0px;
+    text-align: center;
+    /* border: 1px solid black; */
 }

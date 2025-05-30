@@ -13,7 +13,7 @@ function Navbar() {
                         <ul className="navbar-text">
                             <li><a className="anchor" href="#Problems">Problem</a></li>
                             <li><a className="anchor" href="#Solutions">Solution</a></li>
-                            <li><a className="anchor" href="">Business Model</a></li>
+                            <li><a className="anchor" href="#businessmodel">Business Model</a></li>
                             <li><a className="anchor" href="">Profit Distribution</a></li>
                         </ul>
                     </div>

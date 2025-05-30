@@ -5,15 +5,43 @@ import spray from "../assets/spray.png"
 import electricBike from "../assets/electric-bike.png"
 import recycle from "../assets/recycle-shopper.png"
 import blackRecycle from "../assets/recycle.png"
-import greenHouse from "../assets/house-leaf"
+import greenHouse from "../assets/house-leaf.png"
 import panel from "../assets/solar-panel.png"
 import flower from "../assets/flower.png"
 
 
 const businessNft = [
     {
-        
-    }
+        name: "Trash",
+        img: blackRecycle,
+        des: "When recycled",
+    },
+    {
+        name: "Green House",
+        img: greenHouse,
+        des: "Fruits, vegetable and energy sale",
+    },
+    {
+        name: "Solar Station",
+        img: panel,
+        des: "When used for Charging",
+    },
+    {
+        name: "Electrical Mobility",
+        img: electricBike,
+        des: "On the rental",
+    },
+    {
+        name: "Green Energy",
+        img: flower,
+        des: "Energy sale",
+    },
+    {
+        name: "Mosquito System",
+        img: spray,
+        des: "Refill products sale",
+    },
+
 ]
 
 
@@ -45,7 +73,7 @@ function BusinessModel() {
     return (
         <>
             <div className="business-container">
-                <h1 className="business-heading">Business Model</h1>
+                <h1 className="business-heading" id="Businessmodel">Business Model</h1>
                 <hr />
                 <p className="business-para">Crowd-funding ownership of</p>
                 <div className="business-images">
@@ -63,9 +91,15 @@ function BusinessModel() {
                 <div className="business-nft">
                     <p className="business-nft-para">Buy as <span>(NFT)</span> and get the Profit </p>
                     <div className="business-images-block">
-                        <div className="business-images-inner-block">
-                            <img className="" src={blackRecycle} alt="" />
-                        </div>
+                        {businessNft.map((item, index) => {
+                            return (
+                                <div key={index} className="business-images-inner-block">
+                                    <h3 className="">{item.name}</h3>
+                                    <img className="inner-images" src={item.img} alt="" />
+                                    <p className="business-inner-para">{item.des}</p>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
             </div>
