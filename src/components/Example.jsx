@@ -11,7 +11,7 @@ function Example() {
                 </div>
                 <div>
                     <div className="example-line">
-                        <p>1 Greenhouse = <span>100 NFT</span><img src={arrow} /> <span>100 USD</span> </p>
+                        <p>1 Greenhouse = <span>100 NFT</span><img src={arrow} /> <span>100 USD</span> Price </p>
                     </div>
                     <div>
 

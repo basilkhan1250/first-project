@@ -334,15 +334,18 @@ hr {
 }
 
 .example-line p {
-    padding: 40px 0px;
+    padding: 30px 0px 0px;
     color: #00AE47;
-    font-size: 22px;
+    font-size: 20px;
 }
 
+.example-line p span {
+    font-weight: 700;
+}
 
 .example-line p img {
-    padding: 0px 40px;
+    padding: 0px 16px 0px 26px;
     height: auto;
-    width: 130px;
+    width: 90px;
     /* border: 1px solid black; */
 }
