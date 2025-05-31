@@ -312,3 +312,37 @@ hr {
     text-align: center;
     /* border: 1px solid black; */
 }
+
+.example {
+    margin: 0px 144px
+}
+
+.example-inner {
+    margin: 0px 60px;
+}
+
+.example-inner h1 {
+    font-size: 48px;
+    color: #00AE47;
+}
+
+.example-line {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.example-line p {
+    padding: 40px 0px;
+    color: #00AE47;
+    font-size: 22px;
+}
+
+
+.example-line p img {
+    padding: 0px 40px;
+    height: auto;
+    width: 130px;
+    /* border: 1px solid black; */
+}
