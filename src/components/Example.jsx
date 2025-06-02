@@ -6,6 +6,8 @@ import house from "../assets/leaf-house.png"
 import leftRightArrow from "../assets/left-right-arrow.png"
 import profitArrow from "../assets/profit-arrow.png"
 import dollar from "../assets/dollar.png"
+import leaf from "../assets/leaf.png"
+import NFT from "../assets/golden-nft2.png"
 
 function Example() {
     return (
@@ -36,6 +38,20 @@ function Example() {
                         <img src={profitArrow} />
                         <img className="dollar" src={dollar} />
                         <img src={leftRightArrow} />
+                    </div>
+                </div>
+                <div className="second-example">
+                    <div className="gray">
+                        <img src={leaf} />
+                        {/* <div > */}
+                            <p className="gray-p">Buy NFT to help the environment and get passive income</p>
+                        {/* </div> */}
+                    </div>
+                    <div className="green">
+                        <img src={NFT} />
+                        <div className="green-p">
+                            <p>Advantage: Resale the ownership Borrow Generate profit</p>
+                        </div>
                     </div>
                 </div>
             </div>

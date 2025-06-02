@@ -314,7 +314,7 @@ hr {
 }
 
 .example {
-    margin: 0px 144px
+    margin: 0px 144px;
 }
 
 .example-inner {
@@ -383,6 +383,53 @@ hr {
     width: 200px;
     /* height: 200px; */
 }
-.dollar{
+
+.dollar {
     width: 120px !important;
+}
+
+.second-example div {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.second-example div img {
+    /* height: 100px; */
+    width: 100px;
+}
+
+.gray-p {
+    text-align: center;
+    padding: 30px 170px;
+    color: #00AE47;
+    font-size: 30px;
+}
+
+.green-p {
+    color: white;
+}
+
+.gray {
+    /* padding: 40px; */
+    background-color: #DCDCDC;
+}
+
+.green {
+    background-color: #00AE47;
+}
+
+.second-example {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid purple; */
+    height: 400px;
+    margin: 150px 0px 80px;
+    /* width: 600px; */
 }
