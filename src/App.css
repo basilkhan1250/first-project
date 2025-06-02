@@ -352,4 +352,24 @@ hr {
 
 .example-second {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people {
+    width: 240px;
+}
+
+.vegNpanel {
+    width: 340px;
+}
+
+
+.example-second div img {
+    width: 80px;
+}
+
+.house {
+    width: 150px !important;
+    /* height: 100px !important; */
 }
