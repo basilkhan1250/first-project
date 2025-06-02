@@ -3,6 +3,9 @@ import arrow from "../assets/arrow.png"
 import people from "../assets/people.png"
 import vegNpanel from "../assets/vegs-panel.png"
 import house from "../assets/leaf-house.png"
+import leftRightArrow from "../assets/left-right-arrow.png"
+import profitArrow from "../assets/profit-arrow.png"
+import dollar from "../assets/dollar.png"
 
 function Example() {
     return (
@@ -22,14 +25,18 @@ function Example() {
                             <p>Buy</p>
                             <img src={arrow} />
                         </div>
-                            <img className="house" src={house} />
+                        <img className="house" src={house} />
                         <div>
                             <p>Generate</p>
                             <img src={arrow} />
                         </div>
                         <img className="vegNpanel" src={vegNpanel} />
                     </div>
-                    <div></div>
+                    <div className="example-third">
+                        <img src={profitArrow} />
+                        <img className="dollar" src={dollar} />
+                        <img src={leftRightArrow} />
+                    </div>
                 </div>
             </div>
         </>

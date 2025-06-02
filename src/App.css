@@ -364,7 +364,6 @@ hr {
     width: 340px;
 }
 
-
 .example-second div img {
     width: 80px;
 }
@@ -372,4 +371,18 @@ hr {
 .house {
     width: 150px !important;
     /* height: 100px !important; */
+}
+
+.example-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-third img {
+    width: 200px;
+    /* height: 200px; */
+}
+.dollar{
+    width: 120px !important;
 }
