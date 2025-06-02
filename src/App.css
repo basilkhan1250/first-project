@@ -349,3 +349,7 @@ hr {
     width: 90px;
     /* border: 1px solid black; */
 }
+
+.example-second {
+    display: flex;
+}
