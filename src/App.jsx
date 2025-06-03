@@ -6,6 +6,7 @@ import Solution from "./components/Solution";
 import BusinessModel from "./components/BusinessModel";
 import Example from "./components/Example";
 import Profit from "./components/Profit"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <BusinessModel />
         <Example />
         <Profit />
+        <Footer />
       </div>
     </>
   )

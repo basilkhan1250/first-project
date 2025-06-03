@@ -449,7 +449,7 @@ hr {
 .profit-parent {
     margin: 64px 0px;
     height: 350px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-direction: row;
     display: flex;
 }
@@ -477,11 +477,25 @@ hr {
 .dark-green {
     background-color: #009F32;
 }
-.bold{
+
+.bold {
     font-weight: 700;
 }
 
 .profit-img {
     width: 150px;
     margin: 10px;
+}
+
+
+.footer {
+    padding: 24px;
+    background-color: #00AE47;
+}
+
+.footer h1 {
+    font-size: 50px;
+    padding: 80px 0px 160px 0px;
+    color: white;
+    text-align: center;
 }

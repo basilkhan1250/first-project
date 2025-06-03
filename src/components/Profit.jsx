@@ -7,7 +7,7 @@ function Profit() {
     return (
         <>
             <div className="profit">
-                <h1>Profit Distribution</h1>
+                <h1 id="Profit">Profit Distribution</h1>
                 <hr />
                 <div className="profit-parent">
                     <div className="dark-green">

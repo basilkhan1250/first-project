@@ -14,7 +14,7 @@ function Navbar() {
                             <li><a className="anchor" href="#Problems">Problem</a></li>
                             <li><a className="anchor" href="#Solutions">Solution</a></li>
                             <li><a className="anchor" href="#BusinessModel">Business Model</a></li>
-                            <li><a className="anchor" href="">Profit Distribution</a></li>
+                            <li><a className="anchor" href="#Profit">Profit Distribution</a></li>
                         </ul>
                     </div>
                 </div>
