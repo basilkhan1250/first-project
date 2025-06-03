@@ -412,6 +412,9 @@ hr {
 }
 
 .green-p {
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 30px;
     color: white;
 }
 

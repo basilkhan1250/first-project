@@ -43,15 +43,11 @@ function Example() {
                 <div className="second-example">
                     <div className="gray">
                         <img src={leaf} />
-                        {/* <div > */}
-                            <p className="gray-p">Buy NFT to help the environment and get passive income</p>
-                        {/* </div> */}
+                        <p className="gray-p">Buy NFT to help the environment and get passive income</p>
                     </div>
                     <div className="green">
                         <img src={NFT} />
-                        <div className="green-p">
-                            <p>Advantage: Resale the ownership Borrow Generate profit</p>
-                        </div>
+                        <p className="green-p">Advantage: <br /> Resale the ownership <br /> Borrow <br /> Generate profit</p>
                     </div>
                 </div>
             </div>
